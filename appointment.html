@@ -1,0 +1,13 @@
+<section id="appointment">
+    <h1>Запись на сеанс</h1>
+    <form id="appointment-form">
+        <label for="appointment-date">Выберите дату:</label>
+        <input type="date" id="appointment-date" name="appointment-date">
+        <button type="submit">Записаться</button>
+    </form>
+    <div id="error-message" style="color: red; display: none;">
+        <p>Эта дата уже забронирована. Пожалуйста, выберите другую.</p>
+    </div>
+    <h2>Доступные даты:</h2>
+    <ul id="available-dates"></ul>
+</section>

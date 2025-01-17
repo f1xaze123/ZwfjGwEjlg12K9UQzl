@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+nav {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 10px;          /* Отступ сверху */
+    right: 10px;        /* Отступ справа */
+    background-color: #137fa0; /* Цвет фона для наглядности */
+    padding: 10px 20px; /* Внутренние отступы */
+    border-radius: 8px; /* Закруглённые углы */
+}
+
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Горизонтальное расположение пунктов меню */
+    gap: 15px;     /* Расстояние между пунктами */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none; /* Убираем подчёркивание */
+    color: white;          /* Цвет текста */
+    font-weight: bold;     /* Жирный текст */
+    font-size: 16px;       /* Размер текста */
+    transition: color 0.3s; /* Плавный переход цвета при наведении */
+}
+
+nav ul li a:hover {
+    color: lightblue; /* Цвет текста при наведении */
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+    font-family: Oswald, sans-serif;
+    color: darkblue;
+}
+
+h1 {
+    color: #137fa0;
+}
+
+header {
+    position: relative;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#content {
+    padding: 20px;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
